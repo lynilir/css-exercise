@@ -29,6 +29,10 @@
 	display: flex;
 }
 
+.language-nav li:first-child {
+  font-weight: bold;
+}
+
 .logo {
 	max-width: 400px;
 	margin-top: 10px;
@@ -47,6 +51,10 @@
 	border-right: 1px solid $light-gray;
 }
 
+.masthead-links li:last-child{
+  border-right: none;
+}
+
 .masthead-links button {
 	background: none;
 	padding: 0px;
@@ -57,12 +65,17 @@
 
 .masthead-links button:hover {
 	background-color: $lightest-gray;
+
 }
 
 .masthead-links a,
-.masthead-links button, 
+.masthead-links button,
 .masthead-links time {
 	margin-right: 10px;
+}
+
+.masthead-links a {
+  text-decoration: underline;
 }
 
 .masthead-links i {
