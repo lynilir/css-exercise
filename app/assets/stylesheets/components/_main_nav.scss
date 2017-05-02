@@ -1,18 +1,24 @@
 .main-nav {
-
+  display: flex;
+  justify-content: space-between;
+  padding: 10px
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  display: flex;
+  align-items: center;
 }
-
 .left-nav > ul > li {
-
+  margin-left: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
 .right-nav > ul > li {
-
+  margin-left: 20px;
 }
 
 .right-nav > ul > li:last-of-type {
@@ -21,7 +27,7 @@
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-
+  color: $gray;
 }
 
 .left-nav span {
@@ -30,5 +36,5 @@
 
 
 .right-nav i {
-
+  font-size: 15px;
 }
